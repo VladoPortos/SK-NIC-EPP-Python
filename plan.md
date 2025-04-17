@@ -1,25 +1,25 @@
 # EPP Command Implementation Checklist
 
 ## Session Commands
-- [x] <login>
-- [x] <logout>
-- [x] <hello> (server greeting)
+- [x] `<login>` (login to EPP server)
+- [x] `<logout>`
+- [x] `<hello>` (server greeting)
 
 ## Domain Object Commands
-- [x] <check> (domain availability)
-- [x] <info> (domain info)  
-- [x] <create> (register domain)  
-- [x] <update> (modify domain)
-- [x] <delete> (remove domain)  
-- [x] <renew> (renew domain)
-- [x] <transfer> (domain transfer)
+- [x] `<check>` (domain availability)
+- [x] `<info>` (domain info)
+- [x] `<create>` (register domain)
+- [x] `<update>` (modify domain)
+- [x] `<delete>` (remove domain)
+- [x] `<renew>` (renew domain)
+- [x] `<transfer>` (domain transfer)
 
 ## Contact Object Commands
 - [x] <check> (contact ID availability)
 - [x] <info> (contact info)
-- [x] <create> (create contact)  
+- [x] <create> (create contact)
 - [x] <update> (modify contact)
-- [x] <delete> (remove contact)  
+- [x] <delete> (remove contact)
 
 ## Host Object Commands
 - [x] <check> (host availability)
@@ -35,7 +35,7 @@
   - High-level API for DS record management
   - SK-NIC XML schema compliance
   - Demo and integration ready
-- [x] Contact identification extension (sk-contact-ident)  
+- [x] Contact identification extension (sk-contact-ident)
   _Implemented with full SK-NIC validation: legal_form (PERS/CORP), required ident_value and birth_date logic, and error handling for invalid combinations._
 - [x] Redemption/restore (RGP) extensions
   - Implemented restore_request and restore_report methods
