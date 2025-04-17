@@ -1,4 +1,7 @@
-EPP príkazy
+
+## Taken from official SK-NIC EPP documentation as reference for EPP commands.
+
+```
 Príkaz: | <login> | <logout> | <hello> | <poll> | <check> | <create> | <delete> | <info> | <transfer> | <update> | <renew> |
 
 Príkaz <login>
@@ -1364,3 +1367,4 @@ Viac v <create> v časti EPP príkazy
 
 Doplňujúce kontaktné informácie
 Toto rozšírenie poskytuje bližšie kontaktné informácie o objekte. Jeho hlavným cieľom je doplnenie funkčnej doručovacej adresy spĺňajúcej podmienky podľa Pravidiel pre kontakty, ktoré príslušnú podmienku nespĺňajú. Celú dokumentáciu tohto rozšírenia nájdete na epp-auxcontact-extension.
+```xml.
